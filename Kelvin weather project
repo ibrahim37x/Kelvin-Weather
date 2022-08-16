@@ -1,0 +1,20 @@
+//This code is constant varible of "kelvin" assigned to 293
+
+const kelvin = 293;
+const celsius = kelvin - 273;
+var fahrenheit = 'x'
+var TEMPERATURE = fahrenheit
+
+//The variable kelvin is equal to 293 and celsius is 273
+
+let fahrenheit = celsius * (9 / 5) + 32;
+fahrenheit = Math.floor(fahrenheit);
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
+const kelvin = 0;
+// Convert to Newton
+let newton = celsius * (33 / 100);
+ 
+// Round down
+newton = Math.floor(newton);
+ 
+console.log(`The temperature is ${newton} degrees Newton.`);
